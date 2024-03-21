@@ -10,7 +10,7 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-     <wrapper>
+     <wrapper class="wrapper">
         <header>
             <img src="img/logo.png" alt="УЗ" class="logo">
             <b class="telephone">+7 9** *** ****</b>
@@ -20,9 +20,9 @@
         <nav>
                 <ul class="nav">
                     <li><a href="#">Главная</a></li>
-                    <li><a href="#">Каталог продукции</a></li>
-                    <li><a href="#">О компании</a></li>
-                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#goods">Каталог продукции</a></li>
+                    <li><a href="#comp_info">О компании</a></li>
+                    <li><a href="#delivery">Доставка и оплата</a></li>
                 </ul>
         </nav>
         <main>
@@ -32,19 +32,56 @@
                 <p class="context">Перерабатываем мусор в одежду, уличную мебель, строй материалы и др.  </p></b>
                 <button class="application_add">Подать заявку</button>
           </div>   </section>
-            
-          <section class="goods">
-            <div class="goods_warning">
+            <h2 class="info_h">Каталог продукции</h2>
+          <section class="goods" id="goods">
+            <!-- <div class="goods_warning">
                 <p class="goods_warning_text">Что-то пошло не так...</p>
+            </div> -->
+            
+            <div class="goods_one" id="">
+              <img src="img/Alcapone-S_normal-60.jpg" alt="" class="goods_img">
+              <h2 class="goods_h2">Парковый экодиван "Классика" 1,6 м</h2>
+              <p class="goods_discription">Классическая парковая скамья-диван в стильном виде.</p>
+              <p class="goods_cost">39 400 p.</p>
+            </div>
+            <div class="goods_one" id="">
+              <img src="img/Crimalla-L_normal-60.jpg" alt="" class="goods_img">
+              <h2 class="goods_h2">Фигурный экодиван</h2>
+              <p class="goods_discription">Идеально подходит для парковых зон, набережных - тех мест, куда люди приходят отдохнуть.</p>
+              <p class="goods_cost">75 900 p.</p>
+            </div>
+            <div class="goods_one" id="">
+              <img src="img/Kopernik_normal.jpg" alt="" class="goods_img">
+              <h2 class="goods_h2">Парковый эколежак</h2>
+              <p class="goods_discription">Дизайн одноместного лежака в стиле модерн и отсутствие задней опорной ножки создают впечатление парения над поверхностью земли.</p>
+              <p class="goods_cost">46 900 p.</p>
+            </div>
+            <div class="goods_one" id="">
+              <img src="img/Bar-5050XL_normal-60.jpg" alt="" class="goods_img">
+              <h2 class="goods_h2">Экобрус 50х50х2300</h2>
+              <p class="goods_discription">Брус является универсальным строительным  материалом.</p>
+              <p class="goods_cost">1 700 p.</p>
+            </div>
+            <div class="goods_one" id="">
+              <img src="img/skamia.webp" alt="" class="goods_img">
+              <h2 class="goods_h2">Экоскамья со спинкой 1,8 м</h2>
+              <p class="goods_discription">Стильная скамья, которая прослужит вам долгие годы, сохраняя при этом первоначальный внешний вид в течение всего срока эксплуатации.</p>
+              <p class="goods_cost">16 900 p.</p>
+            </div>
+            <div class="goods_one" id="">
+              <img src="img/Recast-X3_normal-600.jpg" alt="" class="goods_img">
+              <h2 class="goods_h2">Экоурна для сбора мусора</h2>
+              <p class="goods_discription">Урна для разделительного сбора мусора преднахначена для сбора различных видов отходов, подходящих для переработки.</p>
+              <p class="goods_cost">54 900 p.</p>
             </div>
           </section>
             <hr>
-          <section class="comp_info">
+          <section class="comp_info" id="comp_info">
             <h2 class="info_h">О компании</h2>
             <p class="info_text">Деятельность ООО "УтилиЗона" заключается в том, чтобы перерабатывать мусор, который обычно выбрасывается на свалку, и использовать его для создания материалов, которые в дальнейшем понадобятся для благоустройства городской среды, создания обуви из переработанных материалов, эко-посуды и тд.<em class="green_h1"> Этот проект направлен на решение проблемы загрязнения окружающей среды и создание благоприятных условий для жителей города, как совсем молодых, там и более взрослого поколения.</em> </p>
           </section>
             <hr>
-            <section class="goods">
+            <section class="goods" id="delivery">
                 <div class="goods_warning">
                     <p class="goods_warning_text">Что-то пошло не так...</p>
                 </div>
@@ -54,11 +91,11 @@
         <footer>
             <h2 class="footer">ОСТАВЬТЕ ВАШУ ЗАЯВКУ</h2>
             <p class="footer_apl">Мы подберем оптимальное решение для вашего проекта, ответим на ваши вопросы</p>
-           <div class="in"><div class="inf"><b class="telephone">+7 9** *** ****</b> <br>
+           <div class="in"><div class="inf"><b class="telephone">+7 9** *** ****</b> <br><br>
             <b class="telephone">ivansisov345@gmail.com</b></div> 
             <div class="applications">
-                <input type="text"> <br>
-                <input type="text"> <br>
+                <input type="text" value="+7 "> <br>
+                <input type="text" value="e-mail"> <br>
                 <button class="application">Подать заявку</button>
             </div></div>
             <div class="company"><img class="logo" src="/img/logo.png" alt=""> <p>УтилиЗона</p></div>

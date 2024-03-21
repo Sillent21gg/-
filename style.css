@@ -57,7 +57,7 @@
     font-size: inherit;
     font-weight: inherit; } 
 
-  /*-------------------------Header----------------------------------------*/
+    /*-------------------------Header----------------------------------------*/
   header{
     width: 100%;
     height: 12vh;
@@ -74,7 +74,7 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: 6vw;
-    font-size: larger;
+    font-size: 3vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .application{
@@ -83,6 +83,7 @@
     margin-right: 10vw;
     border-radius: 2vw;
     background-color: #08df5e;
+    font-size: 3vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   nav{
@@ -97,6 +98,7 @@
     text-align: center;
     justify-content: space-around;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3vw;
   }
   a{
     color: black;
@@ -105,6 +107,7 @@
  /* -----------------------------MAIN----------------------------*/
  main{
   background-color:#EFF1F4;
+
  }
 hr{
   width: 100%;
@@ -120,13 +123,14 @@ hr{
  .add{
   width: 100%;
   height:100vh ;
-  background-image: url(img/add.jpg);
+  background-image:url(img/add.jpg);
   background-repeat: no-repeat;
+  object-fit:contain;
  }
  h1{
   width: 70%;
   color:white;
-  font-size: 10vh;
+  font-size: 10vw;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 15vh;
   margin-left: 5vw;
@@ -145,7 +149,7 @@ hr{
  }
  .context{
   width: 70%;
-  font-size: 5vh;
+  font-size: 5vw;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:rgb(219, 83, 83);
   margin-left: 5vw;
@@ -156,14 +160,49 @@ hr{
 
 .goods{
   display: flex;
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 8vh;
-  justify-content: center;
-  height: 40vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3vh;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  min-height: 30vh;
   background-color:rgb(176, 175, 175);
-  border-radius:7vh;
+  border-radius:2vh;
 }
+.goods_one{
+  display: flex;
+  width: 40vw;
+  height:52vh;
+  background-color:#ffffff;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius:2vh;
+  margin: 1vh;
+  }
+.goods_img{
+  width: 29vw;
+  height: 29vh;
+  border-radius:2vh;
+  margin-top: 1vh;
+}
+.goods_h2{
+  font-size: 4vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.goods_discription{
+  margin-top: 2vh;
+  font-size: 2vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(146, 145, 145);
+}
+.goods_cost{
+  margin-bottom: 1vh;
+  font-size: 3vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: auto;
+}
+
 .goods_warning{
   width: 80%;
   height:28vh;
@@ -187,19 +226,19 @@ hr{
   justify-content: center;
   width: 70%;
   margin-left: 15%;
-  margin-top: 7vh;
+  
 }
  .info_h{
   font-size: 5vh;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 2vh;
+  margin-top: 9vh;
  }
  .info_text{
   width: 100%;
   text-align: center;
   font-size: 4vh;
-  margin-top: 2vh;
+  margin-top: 3vh;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 7vh;
  }
@@ -218,20 +257,20 @@ hr{
   text-align: center;
 }
 .footer{
-  font-size: 5vh;
+  font-size: 6vw;
   margin-top: 10vh;
 }
 .footer_apl{
-  width:40%;
-  font-size: 4vh;
-  margin-left: 30%;
+  width:70%;
+  font-size: 4vw;
+  margin-left: 15%;
   margin-top: 2vh;
 }
 .inf{
   width:30%;
-  margin-left: 15%;
-  margin-top: 5vh;
-  font-size: 3vh;
+  margin-left: 0;
+  margin-top: 6vw;
+  font-size: 4vw;
 }
 .applications{
  width:30%;
@@ -244,7 +283,7 @@ hr{
 }
 input{
   margin-bottom: 2vh;
-  min-width: 15vw;
+  width: 30vw;
 }
 .company{
   width: 100%;
